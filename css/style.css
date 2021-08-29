@@ -68,6 +68,7 @@
     left: 15%;
     top: 50%;
     transform: translate(-15%,-50%);
+   
 }
 .section1 img{
     height: 300px;
@@ -267,6 +268,12 @@ span{
  
 }
 
+.productBox:hover{
+    background-color: lavenderblush;
+    transition: 0.5s;
+
+}
+
 .productBox:hover .buyBtn{
     display: flex;
 }
@@ -274,7 +281,113 @@ span{
     color: #FFFFFF;
 }
 
-.productBox a:first-child{
+.about{
+    display: flex;
+    width: 85%;
+    margin:50px 35px;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    margin-bottom: 150px !important;
+}
+.aboutBox{
+    width: 40%;
+    font-family: myriad pro;
+}
+
+.aboutBox img{
+    width: 115%;
+    height: 100%;
+    margin-left: 100px;
+    
+
+}
+.aboutBox h1{
+    color: #333333;
     font-weight: bold;
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.aboutBox h4{
+    color: #333333;
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.aboutBox p{
+    font-size: 1rem;
+    color: #bdbdbd;
+    letter-spacing: 0.5px;
+}
+.notification{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0,0,0,0.03);
+
+}
+
+.notification{
+    font-size: 2rem;
+    color: rgba(56, 56, 56, 56);
+}
+
+.notificationInput{
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+.notificationInput input{
+    width: 100%;
+    height: 40px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+
    
+
+}
+.notificationInput input :placeholder-shown{
+    margin-left: 15px;
+}
+.notificationBtn{
+    width: 140px;
+    height: 40px;
+    background-color: #202020;
+    border-radius:50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: lowercase;
+    font-size: 1rem;
+    padding: 5px;
+  
+}
+.notificationBtn:hover{
+    background-color: #6b60ec;
+    transition: all ease 0.5s;
+    
+}
+
+footer{
+    background-color: black !important;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    color: #f2f2f2;
+
 }
